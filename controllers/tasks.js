@@ -1,6 +1,6 @@
 const express = require('express');
 const tasks = express();
-const models = ('../models');
+const models = require('../models');
 
 // index
 

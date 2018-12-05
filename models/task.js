@@ -4,7 +4,7 @@ module.exports = (sequelize, DataTypes) => {
     name: DataTypes.STRING,
     message: DataTypes.STRING
   }, {});
-  Task.associate = function(models) {
+  Task.associate = function (models) {
     // associations can be defined here
   };
   return Task;
